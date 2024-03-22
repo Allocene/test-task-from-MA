@@ -1,0 +1,92 @@
+@import url("./font.css");
+
+.body {
+   background-color: #141414;
+   margin: 0;
+   padding: 0;
+   color: #F3F3F3;
+}
+.main {
+   display: flex;
+   justify-content: center;
+   padding: 20px;
+}
+.products-box {
+   width: 100%;
+   max-width: 1200px;
+}
+.products__cards {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+.products-list {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 25px;
+   padding-left: 0;
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+.product-general {
+   flex: 1 1 30%;
+   background-color: #141414;
+   border: solid 1px #AAA5A41F;
+   border-radius: 10px;
+   overflow: hidden;
+   padding: 20px;
+}
+.product-image {
+   height: 200px;
+   overflow: hidden;
+}
+.product-img {
+   width: auto;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 10px;
+   padding: 10px;
+}
+.product-general-inf {
+   padding: 10px;
+}
+.title {
+   font-size: 18px;
+   margin-bottom: 0;
+}
+.category {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: solid 1px #AAA5A41F;
+   border-radius: 25px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-right: 250px;
+   background-color: #1A1A1A;
+}
+.category-p {
+   font-size: 12px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 12px;
+   margin-right: 12px;
+}
+.price-mark {
+   color: #F3F3F361;
+   font-size: 13px;
+   margin-bottom: 0;
+}
+.price {
+   font-size: 20px;
+   margin-top: 5px;
+}
+.short-description {
+   cursor: pointer;
+   padding: 0;
+   color: #F3F3F361;
+   font-size: 13px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+}

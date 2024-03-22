@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./style/style.css">
+      <title>Document</title>
+   </head>
+
+   <body class="body">
+      <main data-type="main-products" class="main">
+         <div class="products-box">
+            <div class="content">
+               <div class="products__cards">
+
+                  <template data-type="products-template">
+                     <li class="product-list" data-type="cards">
+                        <div class="product-general">
+                           <div class="product-image" data-type="image">
+                              <img src="#" class="product-img">
+                           </div>
+                           <div class="product-general-inf">
+                              <h3 class="title" data-type="title"></h3>
+                              <ul class="short-description" data-type="short-description">
+                              </ul>
+                              <div class="category">
+                                 <p class="category-p">Clothes</p>
+                              </div>
+                              <p class="price-mark">Price</p>
+                              <h2 class="price" data-type="price"></h2>
+                           </div>
+                        </div>
+                     </li>
+                  </template>
+
+                  <ul data-type="products-list" class="products-list"></ul>
+               </div>
+            </div>
+         </div>
+      </main>
+      <script type="module" src="./script/products.js"></script>
+   </body>
+
+</html>
