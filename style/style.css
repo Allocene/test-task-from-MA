@@ -1,4 +1,5 @@
 @import url("./font.css");
+@import url("./spinner.css");
 
 .body {
    background-color: #141414;
@@ -78,10 +79,31 @@
    font-size: 13px;
    margin-bottom: 0;
 }
+.price-box {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
 .price {
    font-size: 20px;
    margin-top: 5px;
 }
+.button-like {
+   color: #F3F3F3;
+   font-size: 16px;
+   width: 100px;
+   height: 35px;
+   background-color: #713af7;
+   border: solid 1px #713af7;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.button-like.liked {
+   color: red;
+   font-weight: bold;
+   background-color: #5d22f3;
+}
+
 .short-description {
    cursor: pointer;
    padding: 0;

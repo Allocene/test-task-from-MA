@@ -6,7 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+         rel="stylesheet">
       <link rel="stylesheet" href="./style/style.css">
       <title>Document</title>
    </head>
@@ -31,11 +32,21 @@
                                  <p class="category-p">Clothes</p>
                               </div>
                               <p class="price-mark">Price</p>
-                              <h2 class="price" data-type="price"></h2>
+                              <div class="price-box">
+                                 <h2 class="price" data-type="price"></h2>
+                                 <button class="button-like" data-type="button">Like</button>
+                              </div>
                            </div>
                         </div>
                      </li>
                   </template>
+
+                  <div class="container" data-type="spinner-container">
+                     <span class="span"></span>
+                     <span class="span"></span>
+                     <span class="span"></span>
+                     <span class="span"></span>
+                   </div>
 
                   <ul data-type="products-list" class="products-list"></ul>
                </div>
