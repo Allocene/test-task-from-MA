@@ -39,6 +39,9 @@
    padding: 20px;
 }
 .product-image {
+   display: flex;
+   align-items: center;
+   justify-content: center;
    height: 200px;
    overflow: hidden;
 }
